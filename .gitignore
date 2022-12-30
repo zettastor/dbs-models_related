@@ -1,0 +1,14 @@
+.classpath
+.project
+.settings
+target
+*.log
+*.log.
+src/main/java/py/thrift/**
+**/*.o
+**/*.so
+/bin
+/target
+test-output
+*.iml
+.flattened-pom.xml
