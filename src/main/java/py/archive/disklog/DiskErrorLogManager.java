@@ -20,11 +20,13 @@ import py.exception.DiskDegradeException;
 import py.exception.StorageException;
 
 public interface DiskErrorLogManager {
+
   void putArchive(Archive archive) throws DiskDegradeException, DiskBrokenException;
 
   void recordError(Archive archive, StorageException error);
 
   void removeArchive(Archive archive);
+
   /*
    * for test purpose
    */
