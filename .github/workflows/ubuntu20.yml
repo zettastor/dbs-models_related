@@ -6,6 +6,10 @@ on:
       - '.gitignore'
       - '.github/workflows/**.yml'
 
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     uses: zettastor/pengyun-root/.github/workflows/ubuntu20.yml@1.0-OS
