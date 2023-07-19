@@ -1,1 +1,1 @@
-A central hub bringing together all other modules and handling communication and other related tasks.
+An integration hub bringing together all other modules and handling communication and other related tasks.
